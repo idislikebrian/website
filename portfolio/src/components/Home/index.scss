@@ -1,0 +1,99 @@
+.home-page {
+    
+    .text-zone{
+        position: absolute;
+        left: calc(25% + 100px);
+        // top: 50%;
+        // transform: translateY(-50%);
+        width: 60%;
+        max-height: 90%;
+    }
+
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0;
+
+        a {
+            color: #4d4d4e;
+            text-decoration: underline dotted;
+
+            i {
+                transition: all 0.3s ease-out;
+            }
+
+            &:hover {
+                text-decoration: underline;
+
+                svg {
+                    opacity: 0;
+                }
+
+                &:after {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .blinking-cursor {
+
+            &::after {
+                content: '|';
+                font-size: 1.1em;
+                animation: blink 0.7s step-start infinite;
+            }
+
+            @keyframes blink {
+                50% {
+                    opacity: 0%;
+                }
+            }
+        }
+
+        &::before {
+            content: '';
+            font-family: 'Courier New', Courier, monospace;
+            color: #000;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -40px;
+            opacity: 0.6;
+        }
+
+        &::after {
+            content: '';
+            font-family: 'Courier New', Courier, monospace;
+            color: #000;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 5px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+    }
+
+    h2 {
+        color: #4d4d4e;
+        margin-top: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 500;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+
+    .flat-button {
+        background-color: #E8D1A6;
+        height: 100px;
+        width: 200px;
+        color: #4d4d4e;
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: uppercase;
+        font-size: 20px;
+        padding: 10px 18px;
+        text-align: center;
+        text-decoration: none;
+        border: 1px dotted;
+        margin-right: 20px;
+        // float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        transform: rotate(90deg);
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "works": [
+        {
+            "cover": "/works/2021-brightside/BRIGHTSIDE-58-933195u.jpeg",
+            "title": "BRIGHTSIDE 58.933195u, 2021",
+            "description": "27 second video on a loop. 2727 px by 2727 px.",
+            "link": "https://foundation.app/@chamaquito/foundation/41322"
+        },
+        {
+            "cover": "/works/2021-darkside/DARKSIDE-112-414u.jpeg",
+            "title": "DARKSIDE 112.414u, 2021",
+            "description": "27 second video on a loop. 2727 px by 2727 px.",
+            "link": "https://foundation.app/@chamaquito/foundation/42231"
+        },
+        {
+            "cover": "/works/2021-persistence/PERSISTENCE-EG-1-1990.jpeg",
+            "title": "PERSISTENCE (EG) 1-1990, 2021",
+            "description": "1080px by 1080px. 20s.",
+            "link": "https://foundation.app/@chamaquito/foundation/45501"
+        },
+        {
+            "cover": "/works/2021-conway/CONWAY-GOL-01.jpeg",
+            "title": "CONWAY.GOL-01, 2021",
+            "description": "1080 px by 1080 px. 178 ticks. 24 fps. 42 seconds.",
+            "link": "https://foundation.app/@chamaquito/foundation/59564"
+        },
+        {
+            "cover": "/works/2021-darkside/DARKSIDE-112-414u.jpeg",
+            "title": "DARKSIDE 112.414u",
+            "description": "27 second video on a loop. 2727 px by 2727 px.",
+            "link": "https://foundation.app/@chamaquito/foundation/42231"
+        }
+    ]
+}
